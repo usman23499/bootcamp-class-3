@@ -30,7 +30,8 @@ function App() {
     <Student name="Ali" rollno="14" />
     <hr />
     <Student name="Ahmed" rollno="72" />
-   
+    <hr />
+    <Student name="Mugal" rollno="32" />
   </div>
 
   );
