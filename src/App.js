@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Dinner from './dinner'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  //  <h1>Hello world</h1>
+
+  <div>
+    <h1>Hello world</h1>
+
+  <hr />
+  <Dinner dishName="Baryani" sweetDish="kheer"/>
+  <hr />
+
+  <Dinner dishName="Nahari" sweetDish="kulfi"/>
+
+  {/* this is decleartive nature */}
+
     </div>
+
+
   );
 }
 
