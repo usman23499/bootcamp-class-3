@@ -1,5 +1,5 @@
 
-import Dinner from './dinner'
+// import Dinner from './dinner'
 import Student from "./students";
 
 function App() {
