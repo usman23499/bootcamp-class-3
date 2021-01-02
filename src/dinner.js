@@ -10,7 +10,6 @@ function Dinner(probs) {
 
     <h1>Today we a serving {probs.dishName}</h1>
     <h1>Today we are serving sweet {probs.sweetDish}</h1>
-    
      {/* ab yaha per jo bhi lekha ga wo sare componets pe update ho jae ga */}
         </div>
 
